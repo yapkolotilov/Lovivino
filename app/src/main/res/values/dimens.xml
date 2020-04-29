@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ocean_logo_size">208dp</dimen>
+    <dimen name="input_icon_size">18dp</dimen>
+    <dimen name="button_shape_radius">500dp</dimen>
+</resources>
