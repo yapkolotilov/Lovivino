@@ -18,15 +18,9 @@ inline fun <reified T> Retrofit.create(): T {
 
 fun TextView.textString(): String = text.toString()
 
-fun Disposable.autoDispose() {
-    compositeDisposable.add(this)
-}
-
 var SharedPreferences.apiKey get() = getString("api_key", "")
     set(value) { edit().putString("api_key", value).apply() }
 
 fun emulateDelay() {
     Thread.sleep(500L)
 }
-
-private val compositeDisposable by lazy { CompositeDisposable() }

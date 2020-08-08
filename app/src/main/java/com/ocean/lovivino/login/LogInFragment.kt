@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.ocean.lovivino.R
 import com.ocean.lovivino.common.FragmentWithViewModel
-import com.ocean.lovivino.utils.autoDispose
 import com.ocean.lovivino.utils.textString
 import kotlinx.android.synthetic.main.fragment_log_in.*
 import kotlin.reflect.KClass

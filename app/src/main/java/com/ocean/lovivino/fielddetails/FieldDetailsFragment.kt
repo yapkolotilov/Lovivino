@@ -8,7 +8,6 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import com.ocean.lovivino.R
 import com.ocean.lovivino.common.FragmentWithViewModel
-import com.ocean.lovivino.utils.autoDispose
 import com.ocean.lovivino.web.SensorDto
 import kotlinx.android.synthetic.main.fragment_field_details.*
 import kotlin.math.sqrt
